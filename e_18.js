@@ -1,3 +1,4 @@
+"use strict";
 // Seeing the World: Think of at least five places in the world you’d like to visit.
 // • Store the locations in a array. Make sure the array is not in alphabetical order.
 // • Print your array in its original order.
@@ -9,13 +10,13 @@
 // • Reverse the order of your list again. Print the list to show it’s back to its original order.
 // • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
 // • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
-var myplace = ['karachi', 'lahore', 'hyderabad', 'sukkar', 'larkana', 'kotri'];
+const myplace = ['karachi', 'lahore', 'hyderabad', 'sukkar', 'larkana', 'kotri'];
 console.log(myplace);
-var copyOfArray = myplace.slice();
-var sortedArray = copyOfArray.sort();
+let copyOfArray = myplace.slice();
+let sortedArray = copyOfArray.sort();
 console.log(sortedArray);
 // printing to original array 
 console.log(myplace);
 // reversing original array 
-var reverseOriarray = myplace.reverse();
+let reverseOriarray = myplace.reverse();
 console.log(reverseOriarray);

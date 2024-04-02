@@ -1,4 +1,5 @@
+"use strict";
 // Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
-var favNumber = 7;
-var message = "my favorite number is ".concat(favNumber);
+const favNumber = 7;
+const message = `my favorite number is ${favNumber}`;
 console.log(message);
